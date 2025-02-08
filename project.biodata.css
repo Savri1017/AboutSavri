@@ -1,0 +1,298 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background-color: var(--color1);
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+:root {
+    --color1 :#0f0529 ;
+    --color2 : #4a2574 ;
+    --color3 : #7338a0 ;
+    --color4 : #924dbf ;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: transparent ;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-judul {
+    display: flex;
+    color: white;
+    margin-left: 50px;
+    background: transparent;
+}
+
+.nav-isi {
+    background: transparent;
+}
+
+.nama-akhir {
+    color: var(--color4);
+    background: transparent;
+}
+
+.nav-project li a{
+    font-size: 15px;
+    color: var(--color4);
+}
+
+.nav-project {
+    background: transparent;
+}
+
+ul {
+    background: transparent;
+    display: flex;
+}
+
+li {
+    background: transparent;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 12px;
+    border-radius: 10px;
+    background: transparent;
+    transition: all 0.3s;
+}
+
+li a:hover {
+    color: var(--color4);
+    font-size: 15px;
+}
+
+.judul-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.judul-awal {
+    color: white;
+    font-size: 18px;
+}
+
+.judul-akhir {
+    color: var(--color4);
+    font-size: 18px;
+}
+
+.description {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.project-one {
+    border: 1px solid var(--color4);
+    padding: 10px;
+    padding-bottom: 50px;
+    transition: all 0.5s;
+}
+
+.project-one h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-one p {
+    font-size: 10px;
+    color: white;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.project-one:hover {
+    transform: scale(1.1);
+}
+
+.project-two {
+    border: 1px solid var(--color4);
+    padding: 10px;
+    padding-bottom: 70px;
+    transition: all 0.5s;
+}
+
+.project-two h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-two p {
+    font-size: 10px;
+    color: white;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.project-two:hover {
+    transform: scale(1.1);
+    
+}
+
+.project-three {
+    border: 1px solid var(--color4);
+    padding: 10px;
+    padding-bottom: 70px;
+    transition: all 0.5s;
+}
+
+.project-three h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-three p {
+    font-size: 10px;
+    color: white;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.project-three:hover {
+    transform: scale(1.1);
+}
+
+.project-container-two {
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 100px;
+}
+
+.project-four {
+    border: 1px solid var(--color4);
+    padding: 10px;
+    padding-bottom: 70px;
+    transition: all 0.5s;
+}
+
+.project-four h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-four p {
+    font-size: 10px;
+    color: white;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.project-four:hover {
+    transform: scale(1.1);
+}
+
+.project-five {
+    border: 1px solid var(--color4);
+    padding: 10px;
+    padding-bottom: 70px;
+    transition: all 0.5s;
+}
+
+.project-five h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-five p {
+    font-size: 10px;
+    color: white;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+
+.project-five:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    font-size: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        justify-content: space-between;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .navbar li a{
+        font-size: 11px;
+    }
+
+    .nav-judul {
+        margin-left: 20px;
+    }
+
+    .nav-isi li a{
+        margin-right: 20px;
+    }
+
+    .judul-container h1{
+        font-size: 25px;
+    }
+
+    .description p{
+        font-size: 15px;
+    }
+
+    .project-container {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .project-container-two {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .copyright h1{
+        font-size: 6px;
+    }
+}

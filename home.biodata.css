@@ -1,0 +1,461 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background-color: var(--color1);
+    scroll-behavior: smooth;
+    
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+:root {
+    --color1 :#0f0529 ;
+    --color2 : #4a2574 ;
+    --color3 : #7338a0 ;
+    --color4 : #924dbf ;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: transparent ;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-judul {
+    display: flex;
+    color: white;
+    margin-left: 50px;
+    background: transparent;
+}
+
+.nav-isi {
+    background: transparent;
+}
+
+.nav-home li a{
+    color: var(--color4);
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.nav-home {
+    background: transparent;
+}
+
+.nama-awal {
+    background: transparent;
+}
+
+.nama-akhir {
+    color: var(--color4);
+    background: transparent;
+}
+
+ul {
+    background: transparent;
+    display: flex;
+}
+
+li {
+    background: transparent;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 12px;
+    border-radius: 10px;
+    background: transparent;
+    transition: all 0.3s;
+}
+
+li a:hover {
+    font-size: 15px;
+    color: var(--color4);
+}
+
+.home {
+    margin-top: 80px;
+    display: flex;
+}
+
+.left-container {
+    color: white;
+    margin: 120px;
+    font-size: 25px;
+}
+
+.name-judul {
+    color: var(--color4);
+    font-size: 45px;
+}
+
+.right-container {
+    margin-top: 50px ;
+    margin-left: 50px;
+}
+
+.description {
+    font-size: 13px;
+}
+
+i {
+    color: var(--color4);
+}
+
+.icon-logo {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.github-logo {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4);
+    transition: all 0.5s;   
+}
+
+.insta-logo {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4);
+    transition: all 0.5s;
+}
+
+.whatsapp-logo {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4);
+    transition: all 0.5s;
+}
+
+.tiktok-logo {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4);
+    transition: all 0.5s;
+}
+
+.github-logo:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.insta-logo:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.tiktok-logo:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.whatsapp-logo:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.judul-about {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    color: white;
+}
+
+.judul-akhir {
+    color: var(--color4);
+}
+
+.right-container-footer img{
+    width: 350px;
+}
+
+.desc {
+    color: white;
+}
+
+.description-two {
+    color: white;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 3;
+}
+
+.nama-desc {
+    color: var(--color4);
+    font-weight: bold;
+}
+
+.nama-akhir-desc {
+    color: var(--color4);
+    font-weight: bold;
+}
+
+.school {
+    margin-top: 50px;
+}
+
+.school-image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-one img{
+    background-color: white;
+    margin-left: 13px;
+}
+
+.card-one p{
+    color: black;
+    background-color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-one {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.card-two img{
+    background-color: white;
+    margin-left: 18px;
+}
+
+.card-two p{
+    color: black;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.card-two {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.card-three img{
+    background-color: white;
+    margin-left: 20px;
+}
+
+.card-three p{
+    color: black;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-three {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.card-one:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px var(--color3);
+}
+
+.card-two:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px var(--color3);
+}
+
+.card-three:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px var(--color3);
+}
+
+.copyright {
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    font-size: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        justify-content: space-between;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .navbar li a{
+        font-size: 11px;
+    }
+
+    .nav-judul {
+        margin-left: 20px;
+    }
+
+    .nav-isi li a{
+        margin-right: 20px;
+    }
+
+    .home {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .left-container {
+        margin-top: 120px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .left-container h1 {
+        font-size:25px;
+    }
+
+    .left-container h3 {
+        font-size: 15px;
+    }
+
+    .left-container p {
+        font-size: 7px;
+    }
+
+    .icon-logo {
+        font-size: 13px;
+    }
+
+    .right-container {
+        margin: 0px auto;
+    }
+
+    .right-container img {
+        width: 250px;
+    }   
+
+    .footer {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .left-container-footer {
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+
+    .left-container-footer h1 {
+        font-size: 20px;
+    }
+
+    .left-container-footer p {
+        font-size: 8px;
+    }
+
+    .judul-about {
+        justify-content: flex-start;
+    }
+
+    .school {
+        justify-content: center;
+    }
+
+    .school-image img{
+        width: 70px;
+    }
+
+    .school-image {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .card-one {
+        padding: 10px;
+    }
+
+    .card-two {
+        padding: 10px;
+    }
+
+    .card-three {
+        padding: 20px;
+    }
+
+    .card-one p{
+        margin-top: 10px;
+        font-size: 6px;
+    }
+
+    .card-two p{
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+
+    .card-three p{
+        font-size: 5px;
+    }
+
+    .card-one img{
+        width: 75px;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 2px;
+    }
+
+    .card-two img{
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 3px;
+    }
+
+    .card-three img{
+        margin-left: 0;
+    }
+
+    .right-container-footer {
+        margin: 0px auto;
+    }
+    .right-container-footer img {
+        width: 270px;
+    }
+
+    .copyright h1{
+        font-size: 6px;
+    }
+}
