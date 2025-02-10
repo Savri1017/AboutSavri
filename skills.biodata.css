@@ -272,11 +272,13 @@ li a:hover {
 .safari-logo:hover {
     box-shadow: 0px 5px 500px var(--color4);
     transition: all 0.5s;
+    transform: scale(1.2);
 }
 
 .google-logo:hover {
     box-shadow: 0px 5px 500px var(--color4);
     transition: all 0.5s;
+    transform: scale(1.2);
 }
 
 .copyright {
