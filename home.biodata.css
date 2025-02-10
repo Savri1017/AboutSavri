@@ -66,6 +66,8 @@ body::-webkit-scrollbar{
 ul {
     background: transparent;
     display: flex;
+    gap: 55px;
+    margin-right: 50px;
 }
 
 li {
@@ -77,7 +79,6 @@ li a {
     text-decoration: none;
     color: whitesmoke;
     font-weight: bold;
-    margin-right: 50px;
     font-size: 12px;
     border-radius: 10px;
     background: transparent;
@@ -321,16 +322,17 @@ i {
         font-size: 16px;
     }
 
+    .navbar ul {
+        gap: 12px;
+        margin-right: 20px;
+    }
+
     .navbar li a{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .nav-judul {
         margin-left: 20px;
-    }
-
-    .nav-isi li a{
-        margin-right: 20px;
     }
 
     .home {
