@@ -260,6 +260,7 @@ li a:hover {
     border-radius: 5px;
     padding-left: 50px;
     padding-right: 50px;
+    transition: all 0.5s;
 }
 
 .google-logo {
@@ -267,6 +268,7 @@ li a:hover {
     border-radius: 5px;
     padding-left: 50px;
     padding-right: 50px;
+    transition: all 0.5s;
 }
 
 .safari-logo:hover {
