@@ -43,6 +43,42 @@ body::-webkit-scrollbar{
     background: transparent;
 }
 
+.nama-awal {
+    background: transparent;
+}
+
+.nama-akhir {
+    color: var(--color4);
+    background: transparent;
+}
+
+ul {
+    background: transparent;
+    display: flex;
+    gap: 55px;
+    margin-right: 50px;
+}
+
+li {
+    background: transparent;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    background: transparent;
+    transition: all 0.3s;
+}
+
+li a:hover {
+    font-size: 15px;
+    color: var(--color4);
+}
+
 .nama-akhir {
     color: var(--color4);
     background: transparent;
@@ -55,32 +91,6 @@ body::-webkit-scrollbar{
 
 .nav-project {
     background: transparent;
-}
-
-ul {
-    background: transparent;
-    display: flex;
-}
-
-li {
-    background: transparent;
-    list-style: none;
-}
-
-li a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-weight: bold;
-    margin-right: 50px;
-    font-size: 12px;
-    border-radius: 10px;
-    background: transparent;
-    transition: all 0.3s;
-}
-
-li a:hover {
-    color: var(--color4);
-    font-size: 15px;
 }
 
 .judul-container {
@@ -262,20 +272,17 @@ li a:hover {
         font-size: 16px;
     }
 
+    .navbar ul {
+        gap: 12px;
+        margin-right: 20px;
+    }
+
     .navbar li a{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .nav-judul {
         margin-left: 20px;
-    }
-
-    .nav-isi li a{
-        margin-right: 20px;
-    }
-
-    .judul-container h1{
-        font-size: 25px;
     }
 
     .description p{
