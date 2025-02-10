@@ -313,7 +313,7 @@ i {
     margin-top: 80px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 
     .navbar {
         justify-content: space-between;
@@ -345,20 +345,20 @@ i {
     }
 
     .left-container h1 {
-        font-size:25px;
+        font-size:35px;
     }
 
     .left-container h3 {
-        font-size: 15px;
+        font-size: 19px;
     }
 
     .left-container p {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     .icon-logo {
         margin-top: 50;
-        font-size: 13px;
+        font-size: 19px;
     }
 
     .right-container {
@@ -380,11 +380,19 @@ i {
     }
 
     .left-container-footer h1 {
-        font-size: 20px;
+        margin-top: 50px;
+        font-size: 25px;
     }
 
-    .left-container-footer p {
-        font-size: 8px;
+    .description-two {
+        display: flex;
+        justify-content: center;
+    }
+
+    .desc {
+        font-size: 10px;
+        justify-content: center;
+        text-align: center;
     }
 
     .judul-about {
