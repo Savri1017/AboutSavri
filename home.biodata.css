@@ -304,14 +304,88 @@ i {
     box-shadow: 5px 5px 10px var(--color3);
 }
 
-.copyright {
+.web-footer {
+    color: white;
     text-align: center;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    font-size: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 80px;
+    margin-top: 120px;
+}
+
+.judul-footer {
+    word-spacing: 4px;
+}
+
+.icon-logo-two {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.insta-logo-two {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4);  
+    transition: all 0.5s; 
+}
+
+.github-logo-two {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4); 
+    transition: all 0.5s;  
+}
+
+.whatsapp-logo-two {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4); 
+    transition: all 0.5s;   
+}
+
+.tiktok-logo-two {
+    border-radius: 15px;
+    padding: 10px;
+    border: 0.1px solid;
+    color: var(--color4);   
+    transition: all 0.5s; 
+}
+
+.github-logo-two:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.insta-logo-two:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.tiktok-logo-two:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.whatsapp-logo-two:hover {
+    box-shadow: 1px 1px 10px var(--color4);
+    transform: scale(1.2);
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 50px;
+    text-align: center;  
+    display: flex;  
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--color2);
+}
+
+.copyright p {
+    background-color: var(--color2);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -468,7 +542,35 @@ i {
         width: 270px;
     }
 
-    .copyright h1{
-        font-size: 6px;
+    .judul-footer {
+        font-size: 10px;
+    }
+
+    .footer-desc {
+        font-size: 11px;
+    }
+
+    .icon-logo-two {
+        gap: 10px;
+    }
+
+    .insta-logo-two {
+        font-size: 20px;
+    }
+
+    .github-logo-two {
+        font-size: 20px;
+    }
+
+    .whatsapp-logo-two {
+        font-size: 20px;
+    }
+
+    .tiktok-logo-two {
+        font-size: 20px;
+    }
+
+    .copyright p {
+        font-size: 5px;
     }
 }
